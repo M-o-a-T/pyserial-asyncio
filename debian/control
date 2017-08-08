@@ -2,13 +2,15 @@ Source: pyserial-asyncio
 Maintainer: Matthias Urlichs <matthias@urlichs.de>
 Section: python
 Priority: optional
-Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9)
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9),
+  python3-serial,
 Standards-Version: 3.9.6
 Homepage: https://github.com/pyserial/pyserial-asyncio
 
-Package: python3-pyserial-asyncio
+Package: python3-serial-asyncio
 Architecture: all
-Depends: ${misc:Depends}, ${python3:Depends}
+Depends: ${misc:Depends}, ${python3:Depends},
+  python3-serial,
 Description: Python Serial Port Extension - Asynchronous I/O support
  Async I/O extension package for the Python Serial Port Extension for OSX, Linux, BSD
  .
