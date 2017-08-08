@@ -1,3 +1,9 @@
+pyserial-asyncio (0.4+git1-1) smurf; urgency=medium
+
+  * Merge upstream pull request
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Tue, 08 Aug 2017 15:09:26 +0200
+
 pyserial-asyncio (0.4-3) smurf; urgency=medium
 
   * Rename binary package.
